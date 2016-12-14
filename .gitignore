@@ -1,5 +1,9 @@
-venv/
-**.sqlite*
-**.py[cod]
-static/
+.*
+!.gitignore
+!**__init__.py
+*.sqlite*
+*.py[cod]
+/static/
+venv*/
+
 
