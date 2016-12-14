@@ -1,0 +1,17 @@
+{% load compress %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	{% compress css %}
+    	<link rel="stylesheet" type="text/x-scss" href="{% static 'main.scss' %}" />
+	{% endcompress %}
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h3>Ola Mundo</h3>
+		</div>
+	</div>
+</body>
+</html>

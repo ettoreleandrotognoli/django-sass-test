@@ -1,0 +1,5 @@
+venv/
+**.sqlite*
+**.py[cod]
+static/
+
